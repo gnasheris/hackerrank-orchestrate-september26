@@ -13,7 +13,7 @@ from datetime import timedelta
 from events import resolve_events_for_user
 from currency import convert
 from recurring import detect_and_project_recurring
-from message_interpretation import get_message_driven_income_adjustments
+from message_interpretation import get_message_driven_income_adjustments, get_message_driven_expense_adjustments
 
 
 def _get_full_event_list(store, user_id, start_date, end_date):
@@ -24,12 +24,18 @@ def _get_full_event_list(store, user_id, start_date, end_date):
     events = resolve_events_for_user(store, user_id)
     projected_events = detect_and_project_recurring(events, start_date, end_date)
 
-    extra_events, salary_ended = get_message_driven_income_adjustments(store, user_id)
+    extra_events, salary_ended, salary_override = get_message_driven_income_adjustments(store, user_id)
     if salary_ended:
         # A message says this employment/income stream has ended -- don't
         # keep projecting recurring salary forward even if the historical
         # pattern would otherwise look clean and established.
         projected_events = [e for e in projected_events if not e["event_id"].startswith("projected_salary_")]
+    elif salary_override is not None:
+        # A message states the real going-forward salary rate explicitly --
+        # use it instead of whatever the naive statistical estimate picked.
+        for e in projected_events:
+            if e["event_id"].startswith("projected_salary_"):
+                e["resolved_amount"] = salary_override
 
     return events + projected_events + extra_events
 

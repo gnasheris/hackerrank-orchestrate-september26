@@ -29,6 +29,8 @@ salary confirmations do.
 
 import re
 
+from config import parse_date
+
 ENDED_KEYWORDS = ("ended", "berakhir")
 CONFIRMED_KEYWORDS = (
     "confirmed credit date",
@@ -40,6 +42,10 @@ CONFIRMED_KEYWORDS = (
     "dijadwalkan pada",
     "berlaku mulai",
 )
+REDUCED_ONGOING_KEYWORDS = ("reduced", "berkurang")
+RENT_KEYWORDS = ("rent", "sewa")
+RENT_INCREASE_KEYWORDS = ("increase", "menaikkan", "naik")
+PERCENT_PATTERN = re.compile(r"(\d+(?:\.\d+)?)\s*%")
 
 DATE_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}")
 AMOUNT_PATTERN = re.compile(r"\b([A-Z]{3})\s*([\d]+(?:[.,]\d+)?)")
@@ -69,6 +75,54 @@ def is_salary_ended(text):
     return False
 
 
+def is_rent_increase(text):
+    """
+    Matches messages like 'The renewed lease increases monthly rent by
+    12%. The new amount applies from the next rent payment.' Returns the
+    percentage increase as a float (e.g. 12.0), or None if no match.
+    """
+    lower = text.lower()
+    if not any(k in lower for k in RENT_KEYWORDS):
+        return None
+    if not any(k in lower for k in RENT_INCREASE_KEYWORDS):
+        return None
+    m = PERCENT_PATTERN.search(text)
+    if not m:
+        return None
+    return float(m.group(1))
+
+
+def get_message_driven_expense_adjustments(store, user_id):
+    """
+    Returns dict: category -> (multiplier, effective_from_date).
+    Currently detects rent-increase messages. Scans ALL source_types for
+    this user (not restricted to a specific one), since rent-increase
+    notices come from varied service-provider names across the dataset.
+    If multiple such messages exist, the most recently SENT one wins,
+    per the spec's "newer record from the same source" tie-break rule.
+    """
+    adjustments = {}
+    for m in store.messages_by_user.get(user_id, []):
+        text = m.get("message_text", "")
+        pct = is_rent_increase(text)
+        if pct is None:
+            continue
+
+        sent_at = m.get("sent_at", "")
+        effective_date = parse_date(sent_at[:10]) if len(sent_at) >= 10 else None
+        multiplier = 1 + (pct / 100.0)
+
+        existing = adjustments.get("rent")
+        if existing is None or (
+            effective_date is not None
+            and existing[1] is not None
+            and effective_date > existing[1]
+        ):
+            adjustments["rent"] = (multiplier, effective_date)
+
+    return adjustments
+
+
 def is_salary_confirmation(text):
     lower = text.lower()
     if "salary" not in lower and "gaji" not in lower:
@@ -78,16 +132,37 @@ def is_salary_confirmation(text):
     return extract_date(text) is not None and extract_amount(text) is not None
 
 
+def is_salary_reduced_ongoing(text):
+    """
+    Matches messages like 'Your next salary is reduced to EUR 1422.85. The
+    adjustment is due to approved unpaid leave.' or 'Your temporary monthly
+    pay is EUR 1037.52. The reduced amount continues for the next payroll.'
+    These state the real GOING-FORWARD rate, which can differ from what a
+    naive 'minimum of recent occurrences' statistic would pick up -- e.g. a
+    single anomalously-low prorated month shouldn't be mistaken for the new
+    steady state.
+    """
+    lower = text.lower()
+    if "salary" not in lower and "gaji" not in lower and "pay" not in lower:
+        return False
+    return any(k in lower for k in REDUCED_ONGOING_KEYWORDS)
+
+
 def get_message_driven_income_adjustments(store, user_id):
     """
-    Returns (extra_events, salary_ended):
+    Returns (extra_events, salary_ended, salary_override_amount):
       extra_events: list of synthetic scheduled-credit event dicts for any
                     message-confirmed future salary payment.
       salary_ended: bool -- if True, the caller should suppress recurring
                     salary PROJECTION (real historical rows are untouched).
+      salary_override_amount: float|None -- if present, use this as the
+                    conservative ongoing salary estimate INSTEAD OF the
+                    naive statistical minimum, since the message states the
+                    real going-forward rate explicitly.
     """
     extra_events = []
     salary_ended = False
+    salary_override_amount = None
 
     for m in store.messages_by_user.get(user_id, []):
         if m.get("source_type") != "employer":
@@ -117,5 +192,10 @@ def get_message_driven_income_adjustments(store, user_id):
                 })
         elif is_salary_ended(text):
             salary_ended = True
+        elif is_salary_reduced_ongoing(text):
+            ccy_amt = extract_amount(text)
+            if ccy_amt:
+                _, amt = ccy_amt
+                salary_override_amount = amt
 
-    return extra_events, salary_ended
+    return extra_events, salary_ended, salary_override_amount

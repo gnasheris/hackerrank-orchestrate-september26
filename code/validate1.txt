@@ -2,60 +2,45 @@
 [request_02] MISMATCH:
     amount_safe_to_pay:
         expected: 17229139.2
-        got:      17555114.4
+        got:      18151475.66
+    earliest_date_for_full_payment:
+        expected: 2025-09-15
+        got:      2025-08-15
 
 [request_03] MISMATCH:
     amount_safe_to_pay:
         expected: 873000
-        got:      0
-    affordability_status:
-        expected: affordable_later
-        got:      not_affordable
-    recommended_payment_method:
-        expected: wait
-        got:      not_recommended
+        got:      930705.15
     payment_plan:
         expected: 2019-11-15:5491000
-        got:      none
+        got:      2019-10-15:5491000
     earliest_date_for_full_payment:
         expected: 2019-11-15
-        got:      
+        got:      2019-10-15
 
 [request_04] MISMATCH:
     amount_safe_to_pay:
         expected: 8401800
-        got:      9601245.05
+        got:      10638700.66
 
 [request_05] MISMATCH:
     amount_safe_to_pay:
         expected: 737
-        got:      15488
-    affordability_status:
-        expected: not_affordable
-        got:      affordable_now
-    recommended_payment_method:
-        expected: not_recommended
-        got:      full_payment
-    payment_plan:
-        expected: none
-        got:      2025-11-06:15488
-    earliest_date_for_full_payment:
-        expected: 
-        got:      2025-11-06
+        got:      6223.38
 
 [request_06] MISMATCH:
     amount_safe_to_pay:
         expected: 603.3
-        got:      590.13
+        got:      620.4
     affordability_status:
         expected: affordable_with_plan
-        got:      not_affordable
-    recommended_payment_method:
-        expected: full_payment
-        got:      not_recommended
+        got:      affordable_now
     payment_plan:
         expected: 2026-01-03:620.40
-        got:      none
+        got:      2026-01-03:620.4
+    earliest_date_for_full_payment:
+        expected: 2026-01-15
+        got:      2026-01-03
     spending_changes_needed:
         expected: stop:event_476
         got:      none
@@ -63,24 +48,21 @@
 [request_07] MISMATCH:
     amount_safe_to_pay:
         expected: 87170.56
-        got:      84740.82
+        got:      95965.97
+    earliest_date_for_full_payment:
+        expected: 2024-10-23
+        got:      2024-10-15
 
 [request_08] MISMATCH:
     amount_safe_to_pay:
         expected: 284.57
-        got:      113.85
-    affordability_status:
-        expected: affordable_later
-        got:      not_affordable
-    recommended_payment_method:
-        expected: wait
-        got:      not_recommended
+        got:      287.6
     payment_plan:
         expected: 2025-04-15:996.60
-        got:      none
+        got:      2025-03-15:996.6
     earliest_date_for_full_payment:
         expected: 2025-04-15
-        got:      
+        got:      2025-03-15
 
 [request_10] MISMATCH:
     amount_safe_to_pay:
@@ -93,16 +75,10 @@
 [request_11] MISMATCH:
     amount_safe_to_pay:
         expected: 12510645
-        got:      11609272.61
+        got:      12291444.35
     affordability_status:
         expected: affordable_with_plan
-        got:      affordable_later
-    recommended_payment_method:
-        expected: full_payment
-        got:      wait
-    payment_plan:
-        expected: 2025-05-03:13110000
-        got:      2025-05-15:13110000
+        got:      affordable_now
     earliest_date_for_full_payment:
         expected: 2025-07-15
         got:      2025-05-15
@@ -113,24 +89,24 @@
 [request_13] MISMATCH:
     amount_safe_to_pay:
         expected: 433.4
-        got:      0
+        got:      941.6
     affordability_status:
         expected: affordable_later
-        got:      not_affordable
+        got:      affordable_now
     recommended_payment_method:
         expected: wait
-        got:      not_recommended
+        got:      full_payment
     payment_plan:
         expected: 2024-05-15:941.60
-        got:      none
+        got:      2024-03-07:941.6
     earliest_date_for_full_payment:
         expected: 2024-05-15
-        got:      
+        got:      2024-03-07
 
 [request_14] MISMATCH:
     amount_safe_to_pay:
         expected: 597.74
-        got:      0
+        got:      35.7
 
 [request_15] MISMATCH:
     amount_safe_to_pay:
@@ -140,7 +116,7 @@
 [request_16] MISMATCH:
     amount_safe_to_pay:
         expected: 122500
-        got:      91257.21
+        got:      96177.9
     affordability_status:
         expected: affordable_now
         got:      affordable_later
@@ -157,12 +133,12 @@
 [request_17] MISMATCH:
     amount_safe_to_pay:
         expected: 243849.58
-        got:      264304.71
+        got:      266497.73
 
 [request_18] MISMATCH:
     amount_safe_to_pay:
         expected: 462
-        got:      513.21
+        got:      547.99
     payment_plan:
         expected: 2026-09-15:3246.10
         got:      2026-08-15:3246.1
@@ -173,15 +149,15 @@
 [request_19] MISMATCH:
     amount_safe_to_pay:
         expected: 28820
-        got:      27958.02
+        got:      31400.74
     payment_plan:
         expected: 2024-09-04:28820|2024-09-15:10840
-        got:      2024-09-04:27958.02|2024-09-15:11701.98
+        got:      2024-09-04:31400.74|2024-09-15:8259.26
 
 [request_20] MISMATCH:
     amount_safe_to_pay:
         expected: 5400
-        got:      4093.45
+        got:      5415.74
 
 [request_21] MISMATCH:
     amount_safe_to_pay:
@@ -203,7 +179,7 @@
 [request_22] MISMATCH:
     amount_safe_to_pay:
         expected: 475.46
-        got:      466.51
+        got:      480.1
     earliest_date_for_full_payment:
         expected: 2025-01-15
         got:      2024-12-15
@@ -211,12 +187,18 @@
 [request_23] MISMATCH:
     amount_safe_to_pay:
         expected: 9152
-        got:      9710.13
+        got:      10280.41
+    payment_plan:
+        expected: 2025-07-15:38016
+        got:      2025-06-15:38016
+    earliest_date_for_full_payment:
+        expected: 2025-07-15
+        got:      2025-06-15
 
 [request_24] MISMATCH:
     amount_safe_to_pay:
         expected: 13420
-        got:      13877.88
+        got:      14718.57
     earliest_date_for_full_payment:
         expected: 
         got:      2026-03-15
@@ -224,19 +206,7 @@
 [request_25] MISMATCH:
     amount_safe_to_pay:
         expected: 1425000
-        got:      668835.91
-    affordability_status:
-        expected: not_affordable
-        got:      affordable_later
-    recommended_payment_method:
-        expected: not_recommended
-        got:      wait
-    payment_plan:
-        expected: none
-        got:      2024-04-15:60496000
-    earliest_date_for_full_payment:
-        expected: 
-        got:      2024-04-15
+        got:      1372384.27
 
 ==================================================
 3/25 sample requests matched exactly
