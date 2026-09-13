@@ -13,6 +13,25 @@ from datetime import timedelta
 from events import resolve_events_for_user
 from currency import convert
 from recurring import detect_and_project_recurring
+from message_interpretation import get_message_driven_income_adjustments
+
+
+def _get_full_event_list(store, user_id, start_date, end_date):
+    """
+    Shared logic for both timeline builders: real events + recurring
+    projections + message-driven adjustments, all combined consistently.
+    """
+    events = resolve_events_for_user(store, user_id)
+    projected_events = detect_and_project_recurring(events, start_date, end_date)
+
+    extra_events, salary_ended = get_message_driven_income_adjustments(store, user_id)
+    if salary_ended:
+        # A message says this employment/income stream has ended -- don't
+        # keep projecting recurring salary forward even if the historical
+        # pattern would otherwise look clean and established.
+        projected_events = [e for e in projected_events if not e["event_id"].startswith("projected_salary_")]
+
+    return events + projected_events + extra_events
 
 
 def build_daily_timeline(store, user_id, start_date, days=90):
@@ -20,10 +39,8 @@ def build_daily_timeline(store, user_id, start_date, days=90):
     Returns (dates, balances): parallel lists, one entry per day from
     start_date to start_date + days inclusive, in the user's home currency.
     """
-    events = resolve_events_for_user(store, user_id)
     end_date = start_date + timedelta(days=days)
-    projected_events = detect_and_project_recurring(events, start_date, end_date)
-    all_events = events + projected_events
+    all_events = _get_full_event_list(store, user_id, start_date, end_date)
     return _balances_from_events(store, user_id, all_events, start_date, days)
 
 
@@ -36,10 +53,8 @@ def build_daily_timeline_with_changes(store, user_id, start_date, changes, days=
     the baseline (unchanged) timeline is still what amount_safe_to_pay and
     earliest_date_for_full_payment are reported from, per spec.
     """
-    events = resolve_events_for_user(store, user_id)
     end_date = start_date + timedelta(days=days)
-    projected_events = detect_and_project_recurring(events, start_date, end_date)
-    all_events = events + projected_events
+    all_events = _get_full_event_list(store, user_id, start_date, end_date)
 
     modified = []
     for e in all_events:
