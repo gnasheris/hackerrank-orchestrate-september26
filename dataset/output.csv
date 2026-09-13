@@ -1,251 +1,251 @@
 request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
-request_26,,,,,,,
-request_27,,,,,,,
-request_28,,,,,,,
-request_29,,,,,,,
-request_30,,,,,,,
-request_31,,,,,,,
-request_32,,,,,,,
+request_26,15656000.0,affordable_now,full_payment,2025-08-03:15656000.0,2025-08-03,none,Balance on 2025-08-03 is 100845250.00 IDR; minimum to keep is 24768300.00; requested 15656000.00.
+request_27,6670.0,affordable_now,full_payment,2026-07-05:6670.0,2026-07-05,none,Balance on 2026-07-05 is 93141.80 ZAR; minimum to keep is 20500.00; requested 6670.00.
+request_28,689.4,not_affordable,not_recommended,none,,none,Balance on 2024-06-07 is 1789.40 EUR; minimum to keep is 1100.00; requested 1302.40.
+request_29,51524.0,affordable_now,full_payment,2025-11-04:51524.0,2025-11-04,none,Balance on 2025-11-04 is 113540.10 ZAR; minimum to keep is 28300.00; requested 51524.00.
+request_30,775.2,affordable_now,not_recommended,none,2026-04-06,none,Balance on 2026-04-06 is 3752.72 USD; minimum to keep is 900.00; requested 775.20.
+request_31,13840360.0,not_affordable,not_recommended,none,,none,Balance on 2024-09-03 is 30429260.00 IDR; minimum to keep is 16588900.00; requested 18164000.00.
+request_32,33305.8,not_affordable,not_recommended,none,,none,Balance on 2025-02-05 is 69005.80 ZAR; minimum to keep is 35700.00; requested 40018.00.
 request_33,,,,,,,
-request_34,,,,,,,
+request_34,129400.0,affordable_now,full_payment,2024-12-04:129400.0,2024-12-04,none,Balance on 2024-12-04 is 559752.50 INR; minimum to keep is 138500.00; requested 129400.00.
 request_35,,,,,,,
-request_36,,,,,,,
-request_37,,,,,,,
-request_38,,,,,,,
-request_39,,,,,,,
-request_40,,,,,,,
-request_41,,,,,,,
-request_42,,,,,,,
-request_43,,,,,,,
-request_44,,,,,,,
-request_45,,,,,,,
-request_46,,,,,,,
-request_47,,,,,,,
+request_36,1446.6,not_affordable,not_recommended,none,,none,Balance on 2026-07-03 is 3846.60 USD; minimum to keep is 2400.00; requested 3954.00.
+request_37,12068800.0,not_affordable,not_recommended,none,,none,Balance on 2024-03-05 is 29125000.00 IDR; minimum to keep is 17056200.00; requested 14649000.00.
+request_38,379.4,not_affordable,not_recommended,none,,none,Balance on 2025-08-07 is 779.40 EUR; minimum to keep is 400.00; requested 971.30.
+request_39,203105.0,not_affordable,not_recommended,none,,none,Balance on 2026-04-04 is 416505.00 INR; minimum to keep is 213400.00; requested 208600.00.
+request_40,894.0,not_affordable,not_recommended,none,,none,Balance on 2024-06-06 is 2394.00 EUR; minimum to keep is 1500.00; requested 1290.30.
+request_41,24809250.0,not_affordable,not_recommended,none,,none,Balance on 2025-11-03 is 50175850.00 IDR; minimum to keep is 25366600.00; requested 38760000.00.
+request_42,52100.0,affordable_now,full_payment,2026-01-05:52100.0,2026-01-05,none,Balance on 2026-01-05 is 261765.00 INR; minimum to keep is 113100.00; requested 52100.00.
+request_43,15242750.0,not_affordable,not_recommended,none,,none,Balance on 2024-09-07 is 36640750.00 IDR; minimum to keep is 21398000.00; requested 43339000.00.
+request_44,79390.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-04 is 162290.00 INR; minimum to keep is 82900.00; requested 95800.00.
+request_45,8833100.0,not_affordable,not_recommended,none,,none,Balance on 2026-07-06 is 19982900.00 IDR; minimum to keep is 11149800.00; requested 21983000.00.
+request_46,49450.0,affordable_now,not_recommended,none,2024-12-03,none,Balance on 2024-12-03 is 202335.00 INR; minimum to keep is 84000.00; requested 49450.00.
+request_47,38114000.0,affordable_now,full_payment,2025-05-05:38114000.0,2025-05-05,none,Balance on 2025-05-05 is 112924150.00 IDR; minimum to keep is 30049000.00; requested 38114000.00.
 request_48,,,,,,,
-request_49,,,,,,,
-request_50,,,,,,,
-request_51,,,,,,,
-request_52,,,,,,,
-request_53,,,,,,,
-request_54,,,,,,,
+request_49,20228793.34,not_affordable,not_recommended,none,,none,Balance on 2024-03-04 is 40504493.34 IDR; minimum to keep is 20275700.00; requested 34333000.00.
+request_50,43900.0,affordable_now,full_payment,2025-08-06:43900.0,2025-08-06,none,Balance on 2025-08-06 is 247325.50 INR; minimum to keep is 99700.00; requested 43900.00.
+request_51,2191000.0,affordable_now,full_payment,2026-01-03:2191000.0,2026-01-03,none,Balance on 2026-01-03 is 35347700.00 IDR; minimum to keep is 7811000.00; requested 2191000.00.
+request_52,28870.0,affordable_now,full_payment,2024-06-05:28870.0,2024-06-05,none,Balance on 2024-06-05 is 75320.00 INR; minimum to keep is 41500.00; requested 28870.00.
+request_53,1423.42,not_affordable,not_recommended,none,,none,Balance on 2025-11-07 is 3523.42 USD; minimum to keep is 2100.00; requested 1699.20.
+request_54,16581.4,not_affordable,not_recommended,none,,none,Balance on 2026-07-04 is 53581.40 ZAR; minimum to keep is 37000.00; requested 121528.00.
 request_55,,,,,,,
-request_56,,,,,,,
-request_57,,,,,,,
-request_58,,,,,,,
-request_59,,,,,,,
-request_60,,,,,,,
-request_61,,,,,,,
-request_62,,,,,,,
-request_63,,,,,,,
+request_56,881.56,affordable_now,not_recommended,none,2025-02-03,none,Balance on 2025-02-03 is 3432.36 USD; minimum to keep is 2100.00; requested 881.56.
+request_57,21214.6,not_affordable,not_recommended,none,,none,Balance on 2026-04-05 is 63914.60 ZAR; minimum to keep is 42700.00; requested 61446.00.
+request_58,16226000.0,affordable_now,full_payment,2024-12-07:16226000.0,2024-12-07,none,Balance on 2024-12-07 is 42146065.00 IDR; minimum to keep is 14433900.00; requested 16226000.00.
+request_59,140600.0,affordable_now,not_recommended,none,2025-05-04,none,Balance on 2025-05-04 is 723245.99 INR; minimum to keep is 132600.00; requested 140600.00.
+request_60,199.89,affordable_now,full_payment,2026-01-06:199.89,2026-01-06,none,Balance on 2026-01-06 is 683.69 USD; minimum to keep is 400.00; requested 199.89.
+request_61,29062.0,affordable_now,not_recommended,none,2024-03-03,none,Balance on 2024-03-03 is 147470.23 ZAR; minimum to keep is 36700.00; requested 29062.00.
+request_62,404.23,affordable_now,full_payment,2025-08-05:404.23,2025-08-05,none,Balance on 2025-08-05 is 5151.44 USD; minimum to keep is 1300.00; requested 404.23.
+request_63,98295.0,not_affordable,not_recommended,none,,none,Balance on 2026-07-07 is 251795.00 INR; minimum to keep is 153500.00; requested 343900.00.
 request_64,,,,,,,
-request_65,,,,,,,
-request_66,,,,,,,
-request_67,,,,,,,
-request_68,,,,,,,
-request_69,,,,,,,
-request_70,,,,,,,
-request_71,,,,,,,
-request_72,,,,,,,
+request_65,13024.0,not_affordable,not_recommended,none,,none,Balance on 2025-11-06 is 28524.00 ZAR; minimum to keep is 15500.00; requested 54340.00.
+request_66,22200.0,affordable_now,full_payment,2026-04-03:22200.0,2026-04-03,none,Balance on 2026-04-03 is 302520.00 INR; minimum to keep is 80700.00; requested 22200.00.
+request_67,792.54,not_affordable,not_recommended,none,,none,Balance on 2024-09-05 is 1992.54 USD; minimum to keep is 1200.00; requested 2094.00.
+request_68,2091.6,affordable_now,not_recommended,none,2025-02-07,none,Balance on 2025-02-07 is 3657.83 USD; minimum to keep is 1500.00; requested 2091.60.
+request_69,529.1,affordable_now,full_payment,2026-01-04:529.1,2026-01-04,none,Balance on 2026-01-04 is 1639.50 EUR; minimum to keep is 700.00; requested 529.10.
+request_70,93360.0,not_affordable,not_recommended,none,,none,Balance on 2024-12-06 is 208360.00 INR; minimum to keep is 115000.00; requested 243900.00.
+request_71,7485050.0,not_affordable,not_recommended,none,,none,Balance on 2025-05-03 is 16369850.00 IDR; minimum to keep is 8884800.00; requested 21451000.00.
+request_72,11330.0,affordable_now,full_payment,2026-07-05:11330.0,2026-07-05,none,Balance on 2026-07-05 is 30337.13 ZAR; minimum to keep is 12200.00; requested 11330.00.
 request_73,,,,,,,
-request_74,,,,,,,
-request_75,,,,,,,
-request_76,,,,,,,
-request_77,,,,,,,
+request_74,5010.0,affordable_now,full_payment,2025-08-04:5010.0,2025-08-04,none,Balance on 2025-08-04 is 70056.90 ZAR; minimum to keep is 21900.00; requested 5010.00.
+request_75,28270.0,affordable_now,not_recommended,none,2026-04-06,none,Balance on 2026-04-06 is 145867.87 ZAR; minimum to keep is 39000.00; requested 28270.00.
+request_76,1538.8,not_affordable,not_recommended,none,,none,Balance on 2024-06-03 is 3338.80 USD; minimum to keep is 1800.00; requested 4455.60.
+request_77,60700.0,affordable_now,full_payment,2025-11-05:60700.0,2025-11-05,none,Balance on 2025-11-05 is 189860.50 INR; minimum to keep is 82200.00; requested 60700.00.
 request_78,,,,,,,
-request_79,,,,,,,
-request_80,,,,,,,
-request_81,,,,,,,
-request_82,,,,,,,
-request_83,,,,,,,
+request_79,1104.08,not_affordable,not_recommended,none,,none,Balance on 2024-09-04 is 2104.08 EUR; minimum to keep is 1000.00; requested 2151.60.
+request_80,158825.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-06 is 280125.00 INR; minimum to keep is 121300.00; requested 217500.00.
+request_81,2076.0,affordable_now,full_payment,2026-07-03:2076.0,2026-07-03,none,Balance on 2026-07-03 is 5028.25 USD; minimum to keep is 1600.00; requested 2076.00.
+request_82,1102.4,not_affordable,not_recommended,none,,none,Balance on 2024-12-05 is 2202.40 USD; minimum to keep is 1100.00; requested 1405.20.
+request_83,31130.0,not_affordable,not_recommended,none,,none,Balance on 2025-05-07 is 68930.00 INR; minimum to keep is 37800.00; requested 156200.00.
 request_84,,,,,,,
-request_85,,,,,,,
-request_86,,,,,,,
-request_87,,,,,,,
-request_88,,,,,,,
-request_89,,,,,,,
-request_90,,,,,,,
-request_91,,,,,,,
-request_92,,,,,,,
-request_93,,,,,,,
-request_94,,,,,,,
-request_95,,,,,,,
-request_96,,,,,,,
-request_97,,,,,,,
-request_98,,,,,,,
-request_99,,,,,,,
-request_100,,,,,,,
+request_85,2422120.0,not_affordable,not_recommended,none,,none,Balance on 2024-03-06 is 8818420.00 IDR; minimum to keep is 6396300.00; requested 19304000.00.
+request_86,46300.0,affordable_now,full_payment,2025-08-03:46300.0,2025-08-03,none,Balance on 2025-08-03 is 228639.50 INR; minimum to keep is 84900.00; requested 46300.00.
+request_87,92850.0,not_affordable,not_recommended,none,,none,Balance on 2026-01-05 is 278750.00 INR; minimum to keep is 185900.00; requested 487900.00.
+request_88,15557.89,not_affordable,not_recommended,none,,none,Balance on 2024-06-07 is 41357.89 ZAR; minimum to keep is 25800.00; requested 26092.00.
+request_89,13756000.0,affordable_now,not_recommended,none,2025-11-04,none,Balance on 2025-11-04 is 27331862.01 IDR; minimum to keep is 12534700.00; requested 13756000.00.
+request_90,2560.0,affordable_now,full_payment,2026-07-06:2560.0,2026-07-06,none,Balance on 2026-07-06 is 31629.50 ZAR; minimum to keep is 7600.00; requested 2560.00.
+request_91,1927.2,affordable_now,full_payment,2024-09-03:1927.2,2024-09-03,none,Balance on 2024-09-03 is 4209.60 EUR; minimum to keep is 2100.00; requested 1927.20.
+request_92,34034.0,affordable_now,full_payment,2025-02-05:34034.0,2025-02-05,none,Balance on 2025-02-05 is 78664.47 ZAR; minimum to keep is 28100.00; requested 34034.00.
+request_93,1729.2,affordable_now,full_payment,2026-04-07:1729.2,2026-04-07,none,Balance on 2026-04-07 is 3962.10 USD; minimum to keep is 1900.00; requested 1729.20.
+request_94,572.0,affordable_now,full_payment,2024-12-04:572.0,2024-12-04,none,Balance on 2024-12-04 is 2663.60 EUR; minimum to keep is 600.00; requested 572.00.
+request_95,137865.0,not_affordable,not_recommended,none,,none,Balance on 2025-05-06 is 283365.00 INR; minimum to keep is 145500.00; requested 553000.00.
+request_96,90200.0,affordable_now,not_recommended,none,2026-01-03,none,Balance on 2026-01-03 is 161635.49 INR; minimum to keep is 56500.00; requested 90200.00.
+request_97,8865.89,not_affordable,not_recommended,none,,none,Balance on 2024-03-05 is 38565.89 ZAR; minimum to keep is 29700.00; requested 23496.00.
+request_98,17244.7,not_affordable,not_recommended,none,,none,Balance on 2025-08-07 is 47244.70 ZAR; minimum to keep is 30000.00; requested 27148.00.
+request_99,18062.0,affordable_now,full_payment,2026-07-04:18062.0,2026-07-04,none,Balance on 2026-07-04 is 86706.58 ZAR; minimum to keep is 49100.00; requested 18062.00.
+request_100,35863.53,not_affordable,not_recommended,none,,none,Balance on 2024-06-06 is 68363.53 ZAR; minimum to keep is 32500.00; requested 37114.00.
 request_101,,,,,,,
-request_102,,,,,,,
-request_103,,,,,,,
-request_104,,,,,,,
+request_102,1716.0,affordable_now,not_recommended,none,2026-04-05,none,Balance on 2026-04-05 is 4643.74 EUR; minimum to keep is 900.00; requested 1716.00.
+request_103,43249.0,not_affordable,not_recommended,none,,none,Balance on 2024-09-07 is 168749.00 INR; minimum to keep is 125500.00; requested 368300.00.
+request_104,17204.0,affordable_now,full_payment,2025-02-04:17204.0,2025-02-04,none,Balance on 2025-02-04 is 64021.70 ZAR; minimum to keep is 24700.00; requested 17204.00.
 request_105,,,,,,,
-request_106,,,,,,,
-request_107,,,,,,,
-request_108,,,,,,,
-request_109,,,,,,,
-request_110,,,,,,,
-request_111,,,,,,,
-request_112,,,,,,,
+request_106,1401.7,not_affordable,not_recommended,none,,none,Balance on 2024-12-03 is 2601.70 EUR; minimum to keep is 1200.00; requested 2207.70.
+request_107,2534.4,affordable_now,not_recommended,none,2025-05-05,none,Balance on 2025-05-05 is 5054.52 EUR; minimum to keep is 1600.00; requested 2534.40.
+request_108,7836.4,not_affordable,not_recommended,none,,none,Balance on 2026-07-07 is 31936.40 ZAR; minimum to keep is 24100.00; requested 55308.00.
+request_109,1276.46,not_affordable,not_recommended,none,,none,Balance on 2024-03-04 is 2976.46 EUR; minimum to keep is 1700.00; requested 1863.40.
+request_110,22352.0,affordable_now,not_recommended,none,2025-08-06,none,Balance on 2025-08-06 is 61229.53 ZAR; minimum to keep is 11200.00; requested 22352.00.
+request_111,16625000.0,affordable_now,full_payment,2026-04-03:16625000.0,2026-04-03,none,Balance on 2026-04-03 is 85204860.00 IDR; minimum to keep is 23022800.00; requested 16625000.00.
+request_112,271.7,affordable_now,full_payment,2024-06-05:271.7,2024-06-05,none,Balance on 2024-06-05 is 1026.00 EUR; minimum to keep is 500.00; requested 271.70.
 request_113,,,,,,,
-request_114,,,,,,,
-request_115,,,,,,,
-request_116,,,,,,,
-request_117,,,,,,,
-request_118,,,,,,,
-request_119,,,,,,,
-request_120,,,,,,,
-request_121,,,,,,,
-request_122,,,,,,,
-request_123,,,,,,,
-request_124,,,,,,,
-request_125,,,,,,,
-request_126,,,,,,,
-request_127,,,,,,,
-request_128,,,,,,,
-request_129,,,,,,,
-request_130,,,,,,,
-request_131,,,,,,,
-request_132,,,,,,,
-request_133,,,,,,,
-request_134,,,,,,,
-request_135,,,,,,,
-request_136,,,,,,,
-request_137,,,,,,,
-request_138,,,,,,,
-request_139,,,,,,,
-request_140,,,,,,,
-request_141,,,,,,,
-request_142,,,,,,,
-request_143,,,,,,,
-request_144,,,,,,,
-request_145,,,,,,,
-request_146,,,,,,,
-request_147,,,,,,,
-request_148,,,,,,,
-request_149,,,,,,,
-request_150,,,,,,,
-request_151,,,,,,,
-request_152,,,,,,,
-request_153,,,,,,,
-request_154,,,,,,,
-request_155,,,,,,,
-request_156,,,,,,,
-request_157,,,,,,,
-request_158,,,,,,,
-request_159,,,,,,,
-request_160,,,,,,,
-request_161,,,,,,,
-request_162,,,,,,,
-request_163,,,,,,,
-request_164,,,,,,,
-request_165,,,,,,,
-request_166,,,,,,,
-request_167,,,,,,,
-request_168,,,,,,,
-request_169,,,,,,,
-request_170,,,,,,,
-request_171,,,,,,,
-request_172,,,,,,,
-request_173,,,,,,,
-request_174,,,,,,,
-request_175,,,,,,,
-request_176,,,,,,,
-request_177,,,,,,,
-request_178,,,,,,,
-request_179,,,,,,,
-request_180,,,,,,,
-request_181,,,,,,,
-request_182,,,,,,,
-request_183,,,,,,,
-request_184,,,,,,,
-request_185,,,,,,,
-request_186,,,,,,,
-request_187,,,,,,,
-request_188,,,,,,,
-request_189,,,,,,,
-request_190,,,,,,,
-request_191,,,,,,,
-request_192,,,,,,,
-request_193,,,,,,,
-request_194,,,,,,,
-request_195,,,,,,,
-request_196,,,,,,,
-request_197,,,,,,,
-request_198,,,,,,,
-request_199,,,,,,,
-request_200,,,,,,,
-request_201,,,,,,,
-request_202,,,,,,,
-request_203,,,,,,,
-request_204,,,,,,,
-request_205,,,,,,,
-request_206,,,,,,,
-request_207,,,,,,,
-request_208,,,,,,,
-request_209,,,,,,,
-request_210,,,,,,,
-request_211,,,,,,,
-request_212,,,,,,,
-request_213,,,,,,,
-request_214,,,,,,,
-request_215,,,,,,,
-request_216,,,,,,,
-request_217,,,,,,,
-request_218,,,,,,,
-request_219,,,,,,,
-request_220,,,,,,,
-request_221,,,,,,,
-request_222,,,,,,,
-request_223,,,,,,,
-request_224,,,,,,,
-request_225,,,,,,,
-request_226,,,,,,,
-request_227,,,,,,,
-request_228,,,,,,,
-request_229,,,,,,,
-request_230,,,,,,,
-request_231,,,,,,,
-request_232,,,,,,,
-request_233,,,,,,,
-request_234,,,,,,,
-request_235,,,,,,,
-request_236,,,,,,,
-request_237,,,,,,,
-request_238,,,,,,,
-request_239,,,,,,,
-request_240,,,,,,,
-request_241,,,,,,,
-request_242,,,,,,,
-request_243,,,,,,,
-request_244,,,,,,,
-request_245,,,,,,,
-request_246,,,,,,,
-request_247,,,,,,,
-request_248,,,,,,,
-request_249,,,,,,,
-request_250,,,,,,,
-request_251,,,,,,,
-request_252,,,,,,,
-request_253,,,,,,,
-request_254,,,,,,,
-request_255,,,,,,,
-request_256,,,,,,,
-request_257,,,,,,,
-request_258,,,,,,,
-request_259,,,,,,,
-request_260,,,,,,,
-request_261,,,,,,,
-request_262,,,,,,,
-request_263,,,,,,,
-request_264,,,,,,,
-request_265,,,,,,,
-request_266,,,,,,,
-request_267,,,,,,,
-request_268,,,,,,,
-request_269,,,,,,,
-request_270,,,,,,,
-request_271,,,,,,,
-request_272,,,,,,,
-request_273,,,,,,,
-request_274,,,,,,,
-request_275,,,,,,,
+request_114,65300.0,affordable_now,full_payment,2026-01-04:65300.0,2026-01-04,none,Balance on 2026-01-04 is 219230.00 INR; minimum to keep is 113400.00; requested 65300.00.
+request_115,27135.0,not_affordable,not_recommended,none,,none,Balance on 2024-09-06 is 65935.00 INR; minimum to keep is 38800.00; requested 80500.00.
+request_116,58075.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-03 is 138375.00 INR; minimum to keep is 80300.00; requested 241200.00.
+request_117,880.0,affordable_now,full_payment,2026-07-05:880.0,2026-07-05,none,Balance on 2026-07-05 is 2164.20 EUR; minimum to keep is 1000.00; requested 880.00.
+request_118,738.1,affordable_now,not_recommended,none,2024-12-07,none,Balance on 2024-12-07 is 1538.51 EUR; minimum to keep is 600.00; requested 738.10.
+request_119,130901.01,not_affordable,not_recommended,none,,none,Balance on 2025-05-04 is 282101.01 INR; minimum to keep is 151200.00; requested 203500.00.
+request_120,7714000.0,affordable_now,full_payment,2026-04-06:7714000.0,2026-04-06,none,Balance on 2026-04-06 is 31748980.00 IDR; minimum to keep is 20050300.00; requested 7714000.00.
+request_121,633.6,affordable_now,full_payment,2024-03-03:633.6,2024-03-03,none,Balance on 2024-03-03 is 1741.00 USD; minimum to keep is 800.00; requested 633.60.
+request_122,20558000.0,affordable_now,not_recommended,none,2025-08-05,none,Balance on 2025-08-05 is 56827244.99 IDR; minimum to keep is 12588500.00; requested 20558000.00.
+request_123,4076000.0,affordable_now,full_payment,2026-01-07:4076000.0,2026-01-07,none,Balance on 2026-01-07 is 63706400.00 IDR; minimum to keep is 18091200.00; requested 4076000.00.
+request_124,2109.56,not_affordable,not_recommended,none,,none,Balance on 2024-06-04 is 3709.56 EUR; minimum to keep is 1600.00; requested 3104.20.
+request_125,6468.0,affordable_now,full_payment,2025-11-06:6468.0,2025-11-06,none,Balance on 2025-11-06 is 22027.97 ZAR; minimum to keep is 11300.00; requested 6468.00.
+request_126,159600.0,affordable_now,full_payment,2026-07-03:159600.0,2026-07-03,none,Balance on 2026-07-03 is 403175.00 INR; minimum to keep is 129700.00; requested 159600.00.
+request_127,23980.0,affordable_now,full_payment,2024-09-05:23980.0,2024-09-05,none,Balance on 2024-09-05 is 66058.00 ZAR; minimum to keep is 41000.00; requested 23980.00.
+request_128,25168.0,affordable_now,full_payment,2025-02-07:25168.0,2025-02-07,none,Balance on 2025-02-07 is 80711.70 ZAR; minimum to keep is 42600.00; requested 25168.00.
+request_129,288.0,not_affordable,not_recommended,none,,none,Balance on 2026-04-04 is 1088.00 USD; minimum to keep is 800.00; requested 2668.80.
+request_130,917.46,not_affordable,not_recommended,none,,none,Balance on 2024-12-06 is 2317.46 USD; minimum to keep is 1400.00; requested 1978.80.
+request_131,1855.2,affordable_now,not_recommended,none,2025-05-03,none,Balance on 2025-05-03 is 3387.16 USD; minimum to keep is 1100.00; requested 1855.20.
+request_132,379.86,affordable_now,full_payment,2026-01-05:379.86,2026-01-05,none,Balance on 2026-01-05 is 1744.55 USD; minimum to keep is 1100.00; requested 379.86.
+request_133,15770000.0,affordable_now,not_recommended,none,2024-03-07,none,Balance on 2024-03-07 is 36824650.00 IDR; minimum to keep is 9986200.00; requested 15770000.00.
+request_134,12118200.0,not_affordable,not_recommended,none,,none,Balance on 2025-08-04 is 28020700.00 IDR; minimum to keep is 15902500.00; requested 21831000.00.
+request_135,304.8,affordable_now,full_payment,2026-07-06:304.8,2026-07-06,none,Balance on 2026-07-06 is 1041.10 USD; minimum to keep is 500.00; requested 304.80.
+request_136,560.4,affordable_now,full_payment,2024-06-03:560.4,2024-06-03,none,Balance on 2024-06-03 is 2291.68 USD; minimum to keep is 1100.00; requested 560.40.
+request_137,67960.0,not_affordable,not_recommended,none,,none,Balance on 2025-11-05 is 139760.00 INR; minimum to keep is 71800.00; requested 80100.00.
+request_138,1256.94,affordable_now,not_recommended,none,2026-04-07,none,Balance on 2026-04-07 is 3644.65 EUR; minimum to keep is 2300.00; requested 1256.94.
+request_139,2267.84,not_affordable,not_recommended,none,,none,Balance on 2024-09-04 is 3767.84 USD; minimum to keep is 1500.00; requested 2316.00.
+request_140,13079.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-06 is 34679.00 ZAR; minimum to keep is 21600.00; requested 62832.00.
+request_141,55245.0,not_affordable,not_recommended,none,,none,Balance on 2026-01-03 is 122545.00 INR; minimum to keep is 67300.00; requested 171600.00.
+request_142,1263.6,affordable_now,full_payment,2024-12-05:1263.6,2024-12-05,none,Balance on 2024-12-05 is 5993.85 USD; minimum to keep is 1700.00; requested 1263.60.
+request_143,8811.0,not_affordable,not_recommended,none,,none,Balance on 2025-05-07 is 20111.00 ZAR; minimum to keep is 11300.00; requested 12584.00.
+request_144,233.34,affordable_now,full_payment,2026-07-04:233.34,2026-07-04,none,Balance on 2026-07-04 is 1248.08 USD; minimum to keep is 600.00; requested 233.34.
+request_145,105613.66,not_affordable,not_recommended,none,,none,Balance on 2024-03-06 is 261013.66 INR; minimum to keep is 155400.00; requested 217400.00.
+request_146,81465.0,not_affordable,not_recommended,none,,none,Balance on 2025-08-03 is 190065.00 INR; minimum to keep is 108600.00; requested 449400.00.
+request_147,741.53,not_affordable,not_recommended,none,,none,Balance on 2026-04-05 is 1641.53 EUR; minimum to keep is 900.00; requested 1129.70.
+request_148,13181.08,not_affordable,not_recommended,none,,none,Balance on 2024-06-07 is 33181.08 ZAR; minimum to keep is 20000.00; requested 22242.00.
+request_149,36652.0,affordable_now,not_recommended,none,2025-11-04,none,Balance on 2025-11-04 is 84358.38 ZAR; minimum to keep is 42100.00; requested 36652.00.
+request_150,496.1,affordable_now,not_recommended,none,2026-01-06,none,Balance on 2026-01-06 is 1257.44 EUR; minimum to keep is 700.00; requested 496.10.
+request_151,26999000.0,affordable_now,full_payment,2024-09-03:26999000.0,2024-09-03,none,Balance on 2024-09-03 is 83998265.00 IDR; minimum to keep is 31633600.00; requested 26999000.00.
+request_152,13882.0,affordable_now,not_recommended,none,2025-02-05,none,Balance on 2025-02-05 is 28368.77 ZAR; minimum to keep is 11900.00; requested 13882.00.
+request_153,503.6,not_affordable,not_recommended,none,,none,Balance on 2026-07-07 is 1903.60 USD; minimum to keep is 1400.00; requested 2830.80.
+request_154,1625.8,affordable_now,not_recommended,none,2024-12-04,none,Balance on 2024-12-04 is 4679.40 EUR; minimum to keep is 1300.00; requested 1625.80.
+request_155,112500.0,affordable_now,full_payment,2025-05-06:112500.0,2025-05-06,none,Balance on 2025-05-06 is 218050.00 INR; minimum to keep is 56300.00; requested 112500.00.
+request_156,15205.3,not_affordable,not_recommended,none,,none,Balance on 2026-04-03 is 42105.30 ZAR; minimum to keep is 26900.00; requested 43076.00.
+request_157,10091850.0,not_affordable,not_recommended,none,,none,Balance on 2024-03-05 is 25805950.00 IDR; minimum to keep is 15714100.00; requested 23503000.00.
+request_158,242600.0,affordable_now,not_recommended,none,2025-08-07,none,Balance on 2025-08-07 is 745417.10 INR; minimum to keep is 131400.00; requested 242600.00.
+request_159,13398.0,affordable_now,full_payment,2026-01-04:13398.0,2026-01-04,none,Balance on 2026-01-04 is 40283.20 ZAR; minimum to keep is 8700.00; requested 13398.00.
+request_160,944.61,not_affordable,not_recommended,none,,none,Balance on 2024-06-06 is 2144.61 EUR; minimum to keep is 1200.00; requested 1246.30.
+request_161,18297950.0,not_affordable,not_recommended,none,,none,Balance on 2025-11-03 is 41308350.00 IDR; minimum to keep is 23010400.00; requested 21204000.00.
+request_162,10446200.0,not_affordable,not_recommended,none,,none,Balance on 2026-07-05 is 34607300.00 IDR; minimum to keep is 24161100.00; requested 83923000.00.
+request_163,19304000.0,affordable_now,not_recommended,none,2024-09-07,none,Balance on 2024-09-07 is 49519524.26 IDR; minimum to keep is 26728700.00; requested 19304000.00.
+request_164,27018000.0,affordable_now,not_recommended,none,2025-02-04,none,Balance on 2025-02-04 is 75429169.20 IDR; minimum to keep is 29550500.00; requested 27018000.00.
+request_165,80600.0,affordable_now,full_payment,2026-04-06:80600.0,2026-04-06,none,Balance on 2026-04-06 is 366705.00 INR; minimum to keep is 95000.00; requested 80600.00.
+request_166,2907.6,affordable_now,not_recommended,none,2024-12-03,none,Balance on 2024-12-03 is 9001.95 USD; minimum to keep is 1700.00; requested 2907.60.
+request_167,43802.0,affordable_now,full_payment,2025-05-05:43802.0,2025-05-05,none,Balance on 2025-05-05 is 105090.30 ZAR; minimum to keep is 31200.00; requested 43802.00.
+request_168,49380.0,affordable_now,not_recommended,none,2026-01-07,none,Balance on 2026-01-07 is 173843.00 INR; minimum to keep is 114400.00; requested 49380.00.
+request_169,41976.0,affordable_now,full_payment,2024-03-04:41976.0,2024-03-04,none,Balance on 2024-03-04 is 77544.50 ZAR; minimum to keep is 18700.00; requested 41976.00.
+request_170,36936000.0,affordable_now,not_recommended,none,2025-08-06,none,Balance on 2025-08-06 is 69446998.40 IDR; minimum to keep is 24715800.00; requested 36936000.00.
+request_171,310.65,not_affordable,not_recommended,none,,none,Balance on 2026-07-03 is 810.65 EUR; minimum to keep is 500.00; requested 1878.80.
+request_172,10200.0,affordable_now,not_recommended,none,2024-06-05,none,Balance on 2024-06-05 is 50942.40 ZAR; minimum to keep is 27200.00; requested 10200.00.
+request_173,83190.53,not_affordable,not_recommended,none,,none,Balance on 2025-11-07 is 162290.53 INR; minimum to keep is 79100.00; requested 113000.00.
+request_174,1146.2,affordable_now,not_recommended,none,2026-04-04,none,Balance on 2026-04-04 is 3266.04 EUR; minimum to keep is 700.00; requested 1146.20.
+request_175,2346.3,affordable_now,full_payment,2024-09-06:2346.3,2024-09-06,none,Balance on 2024-09-06 is 4760.25 EUR; minimum to keep is 1700.00; requested 2346.30.
+request_176,686.95,not_affordable,not_recommended,none,,none,Balance on 2025-02-03 is 1286.95 EUR; minimum to keep is 600.00; requested 1239.70.
+request_177,1017.6,affordable_now,full_payment,2026-01-05:1017.6,2026-01-05,none,Balance on 2026-01-05 is 2987.24 USD; minimum to keep is 1300.00; requested 1017.60.
+request_178,2938.1,affordable_now,not_recommended,none,2024-12-07,none,Balance on 2024-12-07 is 7959.30 EUR; minimum to keep is 1400.00; requested 2938.10.
+request_179,37957250.0,not_affordable,not_recommended,none,,none,Balance on 2025-05-04 is 79388050.00 IDR; minimum to keep is 41430800.00; requested 41648000.00.
+request_180,66500.0,affordable_now,full_payment,2026-07-06:66500.0,2026-07-06,none,Balance on 2026-07-06 is 134980.00 INR; minimum to keep is 37300.00; requested 66500.00.
+request_181,1362.0,not_affordable,not_recommended,none,,none,Balance on 2024-03-03 is 3362.00 USD; minimum to keep is 2000.00; requested 5059.20.
+request_182,65714.0,affordable_now,full_payment,2025-08-05:65714.0,2025-08-05,none,Balance on 2025-08-05 is 125010.30 ZAR; minimum to keep is 31100.00; requested 65714.00.
+request_183,26866000.0,affordable_now,not_recommended,none,2026-04-07,none,Balance on 2026-04-07 is 42156223.74 IDR; minimum to keep is 11878300.00; requested 26866000.00.
+request_184,52360.0,not_affordable,not_recommended,none,,none,Balance on 2024-06-04 is 163160.00 INR; minimum to keep is 110800.00; requested 251900.00.
+request_185,783.4,not_affordable,not_recommended,none,,none,Balance on 2025-11-06 is 2083.40 EUR; minimum to keep is 1300.00; requested 1257.30.
+request_186,22863.5,not_affordable,not_recommended,none,,none,Balance on 2026-01-03 is 44863.50 ZAR; minimum to keep is 22000.00; requested 26554.00.
+request_187,67435.0,not_affordable,not_recommended,none,,none,Balance on 2024-09-05 is 195735.00 INR; minimum to keep is 128300.00; requested 187500.00.
+request_188,585.3,not_affordable,not_recommended,none,,none,Balance on 2025-02-07 is 1485.30 EUR; minimum to keep is 900.00; requested 2464.00.
+request_189,488.4,affordable_now,full_payment,2026-07-04:488.4,2026-07-04,none,Balance on 2026-07-04 is 1147.66 EUR; minimum to keep is 400.00; requested 488.40.
+request_190,1555.8,not_affordable,not_recommended,none,,none,Balance on 2024-12-06 is 3155.80 EUR; minimum to keep is 1600.00; requested 2557.50.
+request_191,664.4,affordable_now,full_payment,2025-05-03:664.4,2025-05-03,none,Balance on 2025-05-03 is 1591.06 EUR; minimum to keep is 500.00; requested 664.40.
+request_192,384.8,not_affordable,not_recommended,none,,none,Balance on 2026-04-05 is 1384.80 USD; minimum to keep is 1000.00; requested 2046.00.
+request_193,310.62,not_affordable,not_recommended,none,,none,Balance on 2024-03-07 is 1310.62 EUR; minimum to keep is 1000.00; requested 1212.20.
+request_194,95030.0,not_affordable,not_recommended,none,,none,Balance on 2025-08-04 is 208630.00 INR; minimum to keep is 113600.00; requested 132800.00.
+request_195,1170.4,affordable_now,not_recommended,none,2026-01-06,none,Balance on 2026-01-06 is 2011.18 EUR; minimum to keep is 700.00; requested 1170.40.
+request_196,762.3,affordable_now,full_payment,2024-06-03:762.3,2024-06-03,none,Balance on 2024-06-03 is 1575.65 EUR; minimum to keep is 500.00; requested 762.30.
+request_197,50939000.0,affordable_now,not_recommended,none,2025-11-05,none,Balance on 2025-11-05 is 96081218.26 IDR; minimum to keep is 26245900.00; requested 50939000.00.
+request_198,185800.0,affordable_now,full_payment,2026-07-07:185800.0,2026-07-07,none,Balance on 2026-07-07 is 395190.00 INR; minimum to keep is 124300.00; requested 185800.00.
+request_199,23674000.0,affordable_now,not_recommended,none,2024-09-04,none,Balance on 2024-09-04 is 136691818.94 IDR; minimum to keep is 25359500.00; requested 23674000.00.
+request_200,21717000.0,affordable_now,full_payment,2025-02-06:21717000.0,2025-02-06,none,Balance on 2025-02-06 is 53886150.00 IDR; minimum to keep is 20114600.00; requested 21717000.00.
+request_201,23997000.0,affordable_now,full_payment,2026-04-03:23997000.0,2026-04-03,none,Balance on 2026-04-03 is 77973400.00 IDR; minimum to keep is 17304500.00; requested 23997000.00.
+request_202,123900.0,affordable_now,full_payment,2024-12-05:123900.0,2024-12-05,none,Balance on 2024-12-05 is 366065.00 INR; minimum to keep is 147800.00; requested 123900.00.
+request_203,1442.1,affordable_now,not_recommended,none,2025-05-07,none,Balance on 2025-05-07 is 8327.38 EUR; minimum to keep is 1400.00; requested 1442.10.
+request_204,588.74,affordable_now,full_payment,2026-01-04:588.74,2026-01-04,none,Balance on 2026-01-04 is 2626.28 EUR; minimum to keep is 1300.00; requested 588.74.
+request_205,10621000.0,affordable_now,full_payment,2024-03-06:10621000.0,2024-03-06,none,Balance on 2024-03-06 is 31462900.00 IDR; minimum to keep is 13994300.00; requested 10621000.00.
+request_206,1404.7,affordable_now,not_recommended,none,2025-08-03,none,Balance on 2025-08-03 is 5231.14 EUR; minimum to keep is 900.00; requested 1404.70.
+request_207,11830.0,affordable_now,full_payment,2026-07-05:11830.0,2026-07-05,none,Balance on 2026-07-05 is 26729.60 ZAR; minimum to keep is 13600.00; requested 11830.00.
+request_208,4413000.0,affordable_now,full_payment,2024-06-07:4413000.0,2024-06-07,none,Balance on 2024-06-07 is 16928800.00 IDR; minimum to keep is 10470700.00; requested 4413000.00.
+request_209,8625.1,not_affordable,not_recommended,none,,none,Balance on 2025-11-04 is 27025.10 ZAR; minimum to keep is 18400.00; requested 56914.00.
+request_210,1360.02,affordable_now,not_recommended,none,2026-04-06,none,Balance on 2026-04-06 is 3525.32 USD; minimum to keep is 2000.00; requested 1360.02.
+request_211,1227.89,not_affordable,not_recommended,none,,none,Balance on 2024-09-03 is 2727.89 EUR; minimum to keep is 1500.00; requested 1788.60.
+request_212,22344000.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-05 is 51923800.00 IDR; minimum to keep is 29579800.00; requested 71934000.00.
+request_213,3362.4,affordable_now,not_recommended,none,2026-01-07,none,Balance on 2026-01-07 is 12051.94 USD; minimum to keep is 2100.00; requested 3362.40.
+request_214,69750.0,affordable_now,not_recommended,none,2024-12-04,none,Balance on 2024-12-04 is 292180.00 INR; minimum to keep is 174900.00; requested 69750.00.
+request_215,29986.0,affordable_now,not_recommended,none,2025-05-06,none,Balance on 2025-05-06 is 93951.16 ZAR; minimum to keep is 15700.00; requested 29986.00.
+request_216,1166.8,not_affordable,not_recommended,none,,none,Balance on 2026-07-03 is 2966.80 USD; minimum to keep is 1800.00; requested 3332.40.
+request_217,31601.97,not_affordable,not_recommended,none,,none,Balance on 2024-03-05 is 58401.97 ZAR; minimum to keep is 26800.00; requested 37180.00.
+request_218,37942414.8,not_affordable,not_recommended,none,,none,Balance on 2025-08-07 is 72419614.80 IDR; minimum to keep is 34477200.00; requested 61142000.00.
+request_219,1673.1,affordable_now,not_recommended,none,2026-04-04,none,Balance on 2026-04-04 is 2815.51 EUR; minimum to keep is 1100.00; requested 1673.10.
+request_220,387.32,not_affordable,not_recommended,none,,none,Balance on 2024-06-06 is 1487.32 EUR; minimum to keep is 1100.00; requested 3118.50.
+request_221,109800.0,affordable_now,full_payment,2025-11-03:109800.0,2025-11-03,none,Balance on 2025-11-03 is 268305.00 INR; minimum to keep is 81500.00; requested 109800.00.
+request_222,34078.0,affordable_now,full_payment,2026-01-05:34078.0,2026-01-05,none,Balance on 2026-01-05 is 118101.70 ZAR; minimum to keep is 27300.00; requested 34078.00.
+request_223,898.7,affordable_now,full_payment,2024-09-07:898.7,2024-09-07,none,Balance on 2024-09-07 is 2255.51 EUR; minimum to keep is 800.00; requested 898.70.
+request_224,10327000.0,affordable_now,not_recommended,none,2025-02-04,none,Balance on 2025-02-04 is 49969400.00 IDR; minimum to keep is 22187600.00; requested 10327000.00.
+request_225,18120459.6,not_affordable,not_recommended,none,,none,Balance on 2026-07-06 is 35791159.60 IDR; minimum to keep is 17670700.00; requested 22059000.00.
+request_226,157000.0,affordable_now,full_payment,2024-12-03:157000.0,2024-12-03,none,Balance on 2024-12-03 is 581180.00 INR; minimum to keep is 209400.00; requested 157000.00.
+request_227,42755.0,not_affordable,not_recommended,none,,none,Balance on 2025-05-05 is 105655.00 INR; minimum to keep is 62900.00; requested 259700.00.
+request_228,10557350.0,not_affordable,not_recommended,none,,none,Balance on 2026-04-07 is 36748550.00 IDR; minimum to keep is 26191200.00; requested 63327000.00.
+request_229,800.52,not_affordable,not_recommended,none,,none,Balance on 2024-03-04 is 1800.52 EUR; minimum to keep is 1000.00; requested 1526.80.
+request_230,3537.6,affordable_now,full_payment,2025-08-06:3537.6,2025-08-06,none,Balance on 2025-08-06 is 8676.76 EUR; minimum to keep is 2000.00; requested 3537.60.
+request_231,35706.0,affordable_now,not_recommended,none,2026-01-03,none,Balance on 2026-01-03 is 84590.59 ZAR; minimum to keep is 24300.00; requested 35706.00.
+request_232,1869.4,not_affordable,not_recommended,none,,none,Balance on 2024-06-05 is 4269.40 EUR; minimum to keep is 2400.00; requested 1970.10.
+request_233,6241000.0,affordable_now,not_recommended,none,2025-11-07,none,Balance on 2025-11-07 is 19341300.00 IDR; minimum to keep is 10365700.00; requested 6241000.00.
+request_234,574.25,not_affordable,not_recommended,none,,none,Balance on 2026-07-04 is 1274.25 EUR; minimum to keep is 700.00; requested 1213.30.
+request_235,967.2,affordable_now,full_payment,2024-09-06:967.2,2024-09-06,none,Balance on 2024-09-06 is 2086.28 USD; minimum to keep is 700.00; requested 967.20.
+request_236,14404850.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-03 is 31173450.00 IDR; minimum to keep is 16768600.00; requested 52383000.00.
+request_237,23826000.0,affordable_now,full_payment,2026-04-05:23826000.0,2026-04-05,none,Balance on 2026-04-05 is 100824550.00 IDR; minimum to keep is 22431500.00; requested 23826000.00.
+request_238,663.6,affordable_now,not_recommended,none,2024-12-07,none,Balance on 2024-12-07 is 1882.07 USD; minimum to keep is 700.00; requested 663.60.
+request_239,642.0,affordable_now,full_payment,2025-05-04:642.0,2025-05-04,none,Balance on 2025-05-04 is 1988.90 USD; minimum to keep is 600.00; requested 642.00.
+request_240,39920.0,not_affordable,not_recommended,none,,none,Balance on 2026-01-06 is 92720.00 INR; minimum to keep is 52800.00; requested 101200.00.
+request_241,21052000.0,affordable_now,not_recommended,none,2024-03-03,none,Balance on 2024-03-03 is 90172322.14 IDR; minimum to keep is 19252000.00; requested 21052000.00.
+request_242,437.4,not_affordable,not_recommended,none,,none,Balance on 2025-08-05 is 1037.40 EUR; minimum to keep is 600.00; requested 1966.80.
+request_243,17468.0,affordable_now,full_payment,2026-07-07:17468.0,2026-07-07,none,Balance on 2026-07-07 is 47470.40 ZAR; minimum to keep is 19900.00; requested 17468.00.
+request_244,49918.0,affordable_now,full_payment,2024-06-04:49918.0,2024-06-04,none,Balance on 2024-06-04 is 126279.20 ZAR; minimum to keep is 45900.00; requested 49918.00.
+request_245,65760.0,not_affordable,not_recommended,none,,none,Balance on 2025-11-06 is 160360.00 INR; minimum to keep is 94600.00; requested 128500.00.
+request_246,64086.0,affordable_now,not_recommended,none,2026-04-03,none,Balance on 2026-04-03 is 201692.06 ZAR; minimum to keep is 39300.00; requested 64086.00.
+request_247,1059.3,affordable_now,full_payment,2024-09-05:1059.3,2024-09-05,none,Balance on 2024-09-05 is 2819.20 EUR; minimum to keep is 1300.00; requested 1059.30.
+request_248,1507.36,not_affordable,not_recommended,none,,none,Balance on 2025-02-07 is 2807.36 USD; minimum to keep is 1300.00; requested 1965.60.
+request_249,342.4,not_affordable,not_recommended,none,,none,Balance on 2026-01-04 is 942.40 USD; minimum to keep is 600.00; requested 643.20.
+request_250,28820.0,not_affordable,not_recommended,none,,none,Balance on 2024-12-06 is 64120.00 ZAR; minimum to keep is 35300.00; requested 124278.00.
+request_251,1513.6,affordable_now,not_recommended,none,2025-05-03,none,Balance on 2025-05-03 is 4648.55 EUR; minimum to keep is 1300.00; requested 1513.60.
+request_252,10098500.0,not_affordable,not_recommended,none,,none,Balance on 2026-07-05 is 25250700.00 IDR; minimum to keep is 15152200.00; requested 28082000.00.
+request_253,2335.57,not_affordable,not_recommended,none,,none,Balance on 2024-03-07 is 4635.57 EUR; minimum to keep is 2300.00; requested 2840.20.
+request_254,1759.6,not_affordable,not_recommended,none,,none,Balance on 2025-08-04 is 4259.60 USD; minimum to keep is 2500.00; requested 3535.20.
+request_255,3345000.0,affordable_now,full_payment,2026-04-06:3345000.0,2026-04-06,none,Balance on 2026-04-06 is 38518150.00 IDR; minimum to keep is 9813900.00; requested 3345000.00.
+request_256,218700.0,affordable_now,not_recommended,none,2024-06-03,none,Balance on 2024-06-03 is 394983.28 INR; minimum to keep is 168600.00; requested 218700.00.
+request_257,1085.2,not_affordable,not_recommended,none,,none,Balance on 2025-11-05 is 2685.20 USD; minimum to keep is 1600.00; requested 1352.40.
+request_258,1113.6,affordable_now,full_payment,2026-01-07:1113.6,2026-01-07,none,Balance on 2026-01-07 is 2603.68 USD; minimum to keep is 500.00; requested 1113.60.
+request_259,669.3,not_affordable,not_recommended,none,,none,Balance on 2024-09-04 is 1269.30 EUR; minimum to keep is 600.00; requested 935.00.
+request_260,15059400.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-06 is 35787100.00 IDR; minimum to keep is 20727700.00; requested 52079000.00.
+request_261,1830.4,affordable_now,full_payment,2026-07-03:1830.4,2026-07-03,none,Balance on 2026-07-03 is 4718.96 EUR; minimum to keep is 1500.00; requested 1830.40.
+request_262,9236000.0,affordable_now,full_payment,2024-12-05:9236000.0,2024-12-05,none,Balance on 2024-12-05 is 88406100.00 IDR; minimum to keep is 31018500.00; requested 9236000.00.
+request_263,14718.0,not_affordable,not_recommended,none,,none,Balance on 2025-05-07 is 38818.00 ZAR; minimum to keep is 24100.00; requested 51546.00.
+request_264,44875.0,not_affordable,not_recommended,none,,none,Balance on 2026-04-04 is 104375.00 INR; minimum to keep is 59500.00; requested 111300.00.
+request_265,45970.0,affordable_now,full_payment,2024-03-06:45970.0,2024-03-06,none,Balance on 2024-03-06 is 786105.00 INR; minimum to keep is 189700.00; requested 45970.00.
+request_266,935.0,affordable_now,not_recommended,none,2025-08-03,none,Balance on 2025-08-03 is 2354.92 EUR; minimum to keep is 900.00; requested 935.00.
+request_267,1925.0,affordable_now,not_recommended,none,2026-01-05,none,Balance on 2026-01-05 is 3648.98 EUR; minimum to keep is 1500.00; requested 1925.00.
+request_268,1512.52,not_affordable,not_recommended,none,,none,Balance on 2024-06-07 is 2912.52 EUR; minimum to keep is 1400.00; requested 2426.60.
+request_269,15490.0,affordable_now,full_payment,2025-11-04:15490.0,2025-11-04,none,Balance on 2025-11-04 is 45307.90 ZAR; minimum to keep is 23100.00; requested 15490.00.
+request_270,535.4,not_affordable,not_recommended,none,,none,Balance on 2026-07-06 is 1935.40 USD; minimum to keep is 1400.00; requested 3028.80.
+request_271,84760.0,not_affordable,not_recommended,none,,none,Balance on 2024-09-03 is 142960.00 INR; minimum to keep is 58200.00; requested 91300.00.
+request_272,8815924.0,not_affordable,not_recommended,none,,none,Balance on 2025-02-05 is 16324524.00 IDR; minimum to keep is 7508600.00; requested 13585000.00.
+request_273,13372200.0,not_affordable,not_recommended,none,,none,Balance on 2026-04-07 is 32146800.00 IDR; minimum to keep is 18774600.00; requested 15861000.00.
+request_274,2713.7,affordable_now,not_recommended,none,2024-12-04,none,Balance on 2024-12-04 is 4847.31 EUR; minimum to keep is 1800.00; requested 2713.70.
+request_275,15884000.0,affordable_now,full_payment,2025-05-06:15884000.0,2025-05-06,none,Balance on 2025-05-06 is 37206450.00 IDR; minimum to keep is 12760100.00; requested 15884000.00.
